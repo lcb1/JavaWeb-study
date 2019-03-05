@@ -1,0 +1,41 @@
+----------请求行
+GET / HTTP/1.1
+----------请求头
+Host: www.baidu.com---请求的主机
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0---本机信息
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Cookie: BAIDUID=EE79ED7451FEBA099A74423842F6AE32:FG=1; BIDUPSID=EE79ED7451FEBA099A74423842F6AE32; PSTM=1551618753; BD_UPN=13314752; BDORZ=FFFB88E999055A3F8A630C64834BD6D0; locale=zh; delPer=0; BD_HOME=0; H_PS_PSSID=1432_21120_28608_28585_26350_28603_22157
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+（换行）--重要
+                ----请求体
+注：
+请求行格式--     GET/POST(主要) 请求资源的路径 协议及版本
+请求头---         Key：value
+
+----------响应头
+HTTP/1.1 200 OK---响应行
+
+Bdpagetype: 1
+Bdqid: 0xc81044400009a0a6
+Cache-Control: private
+Connection: Keep-Alive
+Content-Encoding: gzip
+Content-Type: text/html
+Cxy_all: baidu+d37048337d9035c9a207de6210f2251c
+Date: Tue, 05 Mar 2019 11:19:17 GMT
+Expires: Tue, 05 Mar 2019 11:18:41 GMT
+Server: BWS/1.1-----后台Web服务器
+Set-Cookie: delPer=0; path=/; domain=.baidu.com
+BDSVRTM=0; path=/
+BD_HOME=0; path=/
+H_PS_PSSID=1432_21120_28608_28585_26350_28603_22157; path=/; domain=.baidu.com
+Strict-Transport-Security: max-age=172800
+Vary: Accept-Encoding
+X-Ua-Compatible: IE=Edge,chrome=1
+Transfer-Encoding: chunked
+
+            ----响应体
