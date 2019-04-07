@@ -1,0 +1,27 @@
+java Web 工程的结构
+projectName //工程名
+    src      源代码目录
+    web       项目目录
+      index.jsp         
+      WEB-INF     不可访问目录
+          classes     class文件存放目录
+          lib         类库存放目录
+          web.xml    配置class类的访问目录
+          
+          
+          
+ web.xml
+ <?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>com.superlcb.Test</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/index.jsps</url-pattern>
+    </servlet-mapping>
+</web-app>
